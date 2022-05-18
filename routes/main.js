@@ -5,7 +5,7 @@ module.exports = async (server, { hdbCore, logger }) => {
     url: '/',
     method: 'GET',
     handler: () => {
-      return { message: "You are!" };
+      return { message: "You know you are!" };
     },
   })
 };
